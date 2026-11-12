@@ -18,7 +18,7 @@ shop-web/
 └── netlify.toml        tells Netlify to publish the public/ folder
 ```
 
-## 1. Build the C++ to WebAssembly (once, and again after every change to shop.cpp)
+## 1. Build the C++ to WebAssembly
 
 Install Emscripten:
 
@@ -73,4 +73,3 @@ Netlify cannot run Emscripten for you, so the built files must be in the repo.
 | AVL trees tab                      | `AVLTree::toJson`                    | O(n)          |
 | Balance demo                       | `balanceDemo`                        | O(n log n)    |
 
-The viva questions in the original README (why AVL, why three trees, why a composite key) apply unchanged.
